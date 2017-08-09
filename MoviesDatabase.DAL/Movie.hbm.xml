@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="MoviesDatabase.DB.Model" assembly="MoviesDatabase.DB">
+  <class name="Movie" table="Movies">
+    <id name="Id">
+      <generator class="identity" />
+    </id>
+    <property name="Name" />
+    <property name="Description" />
+    <property name="Genre" />
+    <property name="ReleaseDate" />
+    <property name="AgeRestriction" />
+    <property name="ImageFileData" />
+  </class>
+</hibernate-mapping>
